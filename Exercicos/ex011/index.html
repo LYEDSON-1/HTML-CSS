@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinãmica</h1>
+    <p>Tente abrir ess site vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="iamgens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midias/High.mp3" type="audio/mpeg">
+        <source src="midias/Bruno.mp3" type="audio/ogg" >
+        <source src="midias/Melody.mp3" type="audio/mav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midias/High.mp3">Clique aqui para baixar o arquivo HP3</a> </p>
+    </audio>
+
+    <h1>Video do tiktok do novo reforço do flamengo</h1>
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@flamengo/video/7250187754565274886" data-video-id="7250187754565274886" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@flamengo" href="https://www.tiktok.com/@flamengo?refer=embed">@flamengo</a> 1° dia de treino de Luiz Araújo!  Bora conferir? 📍🔴⚫⚽ <a title="vamosflamengo" target="_blank" href="https://www.tiktok.com/tag/vamosflamengo?refer=embed">#VamosFlamengo</a> <a title="crf" target="_blank" href="https://www.tiktok.com/tag/crf?refer=embed">#CRF</a> <a title="luizaraujo" target="_blank" href="https://www.tiktok.com/tag/luizaraujo?refer=embed">#LuizAraujo</a> <a title="fla" target="_blank" href="https://www.tiktok.com/tag/fla?refer=embed">#Fla</a> <a title="flamengo" target="_blank" href="https://www.tiktok.com/tag/flamengo?refer=embed">#Flamengo</a> <a target="_blank" title="♬ som original - Flamengo" href="https://www.tiktok.com/music/som-original-7250187828878772998?refer=embed">♬ som original - Flamengo</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+</body>
+</html>

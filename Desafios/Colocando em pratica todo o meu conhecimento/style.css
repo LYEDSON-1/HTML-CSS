@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+*{
+    height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to top,  rgb(133, 130, 130) ,#8c61c7,#182B69);
+    background-attachment: fixed;
+}
+main {
+    background-color: rgb(243, 237, 237);
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px #374369;
+    width: px;
+    padding: 9px;
+    text-align: center;
+    margin: auto;
+}
+h1 {
+    color: #708deb ;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+#ordenadas {
+    color: #708deb ;
+    text-shadow: 1px 1px black;
+    text-align: center;
+}
+h2{
+    color: #2a4ab594;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+.nãoordenadas {
+    color: #708deb ;
+    text-shadow: 1px 1px black;
+    text-align: center;
+} 
+a{
+    color:#374369 ;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: #243a7c;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+div > audio {
+    display: none;
+}
+div:hover > audio {
+    display: block;
+    color: #374369;
+    width: 600px;
+    background-color: #243a7c;
+}
+div:hover {
+    color: #243a7c;
+}
+
+div{
+    display: inline-block;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+}
+ div:hover {
+    background-color:#243a7c ;
+ }
